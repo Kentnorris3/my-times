@@ -67,6 +67,7 @@
   border: solid;
   margin: 0 auto;
   height: 300px;
+  width: 300px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
   font-family: Georgia;
  font-weight: bold;
@@ -75,9 +76,12 @@
 
 }
 
+#Earth p {
+  align-content: center;
+}
+
 .p1 {
-  border: solid;
-  border-width: medium;
+
   width: 630px;
 }
 
@@ -111,7 +115,7 @@
 }
 
 .fbi p {
-  
+
 }
 
 .page {
@@ -127,6 +131,7 @@
  color: white;
  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
  height: 300px;
+ width: 300px;
 }
 
 #cats {
@@ -136,10 +141,16 @@
  color: white;
  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
  height: 300px;
+
 }
 
 .burger h2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.box {
+  display: inline-flex;
+  border: solid;
 }
